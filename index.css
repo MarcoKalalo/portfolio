@@ -16,6 +16,7 @@ body {
 
 nav {
 	background-color: #4C5760;
+	scroll-behavior: smooth;
 }
 
 .nav-link {
@@ -27,9 +28,14 @@ nav {
 	background-color: #93A8AC;
 }
 
+.fab {
+	color: black;
+}
+
 #gmap_canvas {
 	height: 60vh;
-	font-weight: 100%;
+	width: 100%;
+	align-items: center;
 }
 
 
@@ -39,16 +45,17 @@ nav {
 	width: 30%;
 }
 
-.card {
-	display: inline-block;
-	vertical-align: top;
-	background-color: ghostwhite;
 
+#other-tools {
+	background-color: #A3B4B8;
+/*	height: 40vh;
+	width: 100%;*/
 }
 
 
 #back-to-top {
 	color: black;
+	scroll-behavior: smooth;
 }
 
 footer {
