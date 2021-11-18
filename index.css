@@ -6,12 +6,19 @@ body {
 * {
 	font-family: Comfortaa, cursive;
 }
-.navbar-brand {
+.navbar-brand{
 	font-family: Comforter Brush, cursive !important;
 	font-size: 2rem;
 	font-weight: bold;
 	vertical-align: top;
 
+}
+
+.placeholder {
+	font-family: Comforter Brush, cursive !important;
+	font-weight: bold;
+	vertical-align: bottom;
+	font-size: 2rem;
 }
 
 nav {
