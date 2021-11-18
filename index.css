@@ -41,29 +41,31 @@ nav {
 }
 
 
-.placeholder {
+.placeholdertext {
 	font-family: Comforter Brush, cursive !important;
 	font-weight: bold;
-	vertical-align: bottom;
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
-#gmap_canvas {
-	height: 60vh;
-	width: 100%;
-	align-items: center;
+#toolstext {
+/*	font-family: Comforter Brush, cursive !important;
+	font-weight: bold;
+	color: white;*/
 }
-
-
 
 #placeholder {
 	height: 50vh;
 	width: 30%;
 }
 
+.card {
+	background-color: #AEBEC1;
+}
 
-#other-tools {
-/*	background-color: #A3B4B8;*/
+#gmap_canvas {
+	height: 60vh;
+	width: 100%;
+	align-items: center;
 }
 
 #contact {
