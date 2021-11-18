@@ -5,6 +5,7 @@ body {
 
 * {
 	font-family: Comfortaa, cursive;
+	scroll-behavior: smooth;
 }
 .navbar-brand{
 	font-family: Comforter Brush, cursive !important;
@@ -14,29 +15,37 @@ body {
 
 }
 
-.placeholder {
-	font-family: Comforter Brush, cursive !important;
-	font-weight: bold;
-	vertical-align: bottom;
-	font-size: 2rem;
-}
-
 nav {
 	background-color: #4C5760;
-	scroll-behavior: smooth;
+
 }
 
 .nav-link {
 	font-size: 1.3rem;
 	margin: 0;
+
 }
 
 #aboutme {
 	background-color: #93A8AC;
 }
 
+
 .fab {
 	color: black;
+}
+
+
+#intro {
+	font-size: 1.2rem;
+}
+
+
+.placeholder {
+	font-family: Comforter Brush, cursive !important;
+	font-weight: bold;
+	vertical-align: bottom;
+	font-size: 2rem;
 }
 
 #gmap_canvas {
@@ -54,9 +63,11 @@ nav {
 
 
 #other-tools {
-	background-color: #A3B4B8;
-/*	height: 40vh;
-	width: 100%;*/
+/*	background-color: #A3B4B8;*/
+}
+
+#contact {
+	background-color: #AEBEC1;
 }
 
 
