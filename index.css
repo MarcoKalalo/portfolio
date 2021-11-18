@@ -7,6 +7,11 @@ body {
 	font-family: Comfortaa, cursive;
 	scroll-behavior: smooth;
 }
+nav {
+	background-color: #4C5760;
+
+}
+
 .navbar-brand{
 	font-family: Comforter Brush, cursive !important;
 	font-size: 2rem;
@@ -15,10 +20,6 @@ body {
 
 }
 
-nav {
-	background-color: #4C5760;
-
-}
 
 .nav-link {
 	font-size: 1.3rem;
@@ -26,14 +27,15 @@ nav {
 
 }
 
-#aboutme {
-	background-color: #93A8AC;
+
+
+#banner {
+	background-image: url(https://images.pexels.com/photos/3611882/pexels-photo-3611882.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+	background-size: cover;
+	background-position: top;
 }
 
 
-.fab {
-	color: black;
-}
 
 
 #intro {
@@ -48,9 +50,7 @@ nav {
 }
 
 #toolstext {
-/*	font-family: Comforter Brush, cursive !important;
 	font-weight: bold;
-	color: white;*/
 }
 
 #placeholder {
@@ -68,10 +68,18 @@ nav {
 	align-items: center;
 }
 
-#contact {
+.contact {
 	background-color: #AEBEC1;
 }
 
+.contact-logo {
+	height: 30px;
+	width: 30px;
+}
+
+.fab {
+	color: black;
+}
 
 #back-to-top {
 	color: black;

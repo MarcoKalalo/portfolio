@@ -35,7 +35,7 @@
           <a class="nav-link active text-white" aria-current="page" href="#about-me">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active text-white" href="#projects">My Projects</a>
+          <a class="nav-link active text-white" href="#projects">Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active text-white" href="#tools">Tools</a>
@@ -52,38 +52,27 @@
 <!-- Details -->
 <section class="border border-dark py-5" id="about-me">
 	<div class="container col-md-10">		
-	<div  class="row jumbotron justify-content-center flex-column align-items-center">
-		<div class="col-10 col-md-2" id="mypicture">
-			<img src="./images/mypicture.jpg" class="img-fluid rounded-circle border border-dark">
-		</div>
+		<div  class="jumbotron row justify-content-center flex-column align-items-center" id="banner">
+			<div class="col-10 col-md-2">
+				<img src="./images/mypicture.jpg" class="img-fluid rounded-circle border border-dark">
+			</div>
+
 			<h1 class="text-center">Marco Kalalo</h1>
 			<h3 class="text-center">Full Stack Web Developer</h3>
-			<div class="d-flex justify-content-center">
-				<a href="https://www.facebook.com/UnknownHunterPH/" target="_blank" class="mx-3">
-					<i class="fab fa-facebook"></i>
-				</a>
 
-				<a href="https://m.me/UnknownHunterPH" target="_blank" class="mx-3">
-					<i class="fab fa-facebook-messenger"></i>
-				</a>
-
-				<a href="https://www.instagram.com/marcokalalo/" target="_blank" class="mx-3">
-					<i class="fab fa-instagram"></i>
-				</a>
+			<div class="col-md-10">
+				<p class="text-center px-5" id="intro" >
+					Once a career-shifter and has no experience in web developing, now a full stack web developer. With the help of Zuitt, he managed to acquire and hone the skills needed in the field. Let his previous projects be proof of his capabilities.
+				</p>
 			</div>
-		<div class="col-md-10">
-			<p class="text-center px-5" id="intro" >
-				Once a career-shifter and has no experience in web developing, now a full stack web developer. With the help of Zuitt, he managed to acquire and hone the skills in the field. Let his previous projects be proof of his skills.
-			</p>
 		</div>
-	</div>
 	</div>
 </section>
 <!-- End of Details -->
 
 <!-- Projects -->
 <section class="border border-dark p-5" id="projects">
-	<h3 class="text-center p-3 text-white">Projects</h3>
+	<h2 class="text-center p-3 text-white">PROJECTS</h2>
 
 	<div class="container">
 		<div class="col-md-10 mx-auto">
@@ -95,7 +84,7 @@
 			  </ol>
 			  <div class="carousel-inner">
 			    <div class="carousel-item active">
-			  	<a href="#">
+			  	<a href="#" target="_blank">
 			      <img src="./images/placeholder1.jpg" class="d-block w-100" alt="...">
 			  	</a>
 			      <div class="carousel-caption text-dark">
@@ -104,7 +93,7 @@
 			    </div>
 
 			    <div class="carousel-item">
-			  	<a href="#">
+			  	<a href="#" target="_blank">
 			    	  <img src="./images/placeholder2.jpg" class="d-block w-100" alt="...">
 			    </a>
 			      <div class="carousel-caption text-dark">
@@ -113,14 +102,14 @@
 			    </div>
 
 			    <div class="carousel-item">
-			    <a href="#">
+			    <a href="#" target="_blank">
 			    	  <img src="./images/placeholder3.jpg" class="d-block w-100" alt="...">
 			    </a>
 			      <div class="carousel-caption text-dark">
 			        <h5 class="placeholdertext pb-2">Placeholder 3</h5>
 			      </div>
 			    </div>
-			    
+
 			  <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
 			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 			    <span class="sr-only">Previous</span>
@@ -139,64 +128,74 @@
 
 <!-- Tools -->
 <section class="border-top border-dark p-5" id="tools">
-	<h2 class="text-center text-white p-3">Main Tools</h2>
+	<h2 class="text-center text-white p-3">MAIN TOOLS</h2>
 
 	<div class="container py-2">
 		<div class="row justify-content-around flex-wrap text-center">
-			<div class="card py-2 col-md-3 m-0 border border-dark">
+			<div class="card col-md-3 m-0 py-2 border border-dark">
 				<h3 id="toolstext">HTML5</h3>
-				<img src="./images/logo-html5.png" class="img-fluid">
+				<a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+					<img src="./images/logo-html5.png" class="img-fluid">
+				</a>
 				<p class="text-justfy p-2">Creates the backbone of the website</p>
 			</div>
-			<div class="container card col-md-3 m-0 py-2 border border-dark">
+			<div class="card col-md-3 m-0 py-2 border border-dark">
 				<h3 id="toolstext">CSS3</h3>
-				<img src="./images/logo-css3.png" class="img-fluid">
+				<a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank">
+					<img src="./images/logo-css3.png" class="img-fluid">
+				</a>
 				<p class="text-center p-2">Styles the website</p>
 			</div>
 
-			<div class="container card col-md-3 m-0 py-2 border border-dark">
+			<div class="card col-md-3 m-0 py-2 border border-dark">
 				<h3 id="toolstext">JavaScript</h3>
-				<img src="./images/logo-javascript.png" class="img-fluid">
+				<a href="https://www.javascript.com/" target="_blank">
+					<img src="./images/logo-javascript.png" class="img-fluid">
+				</a>
 				<p class="text-center p-2">Serves as the brain of the website</p>
 			</div>
 		</div>
 	</div>
 
-	<div class="border-btm border-dark p-5" id="other-tools">
-	<h2 class="text-center text-white p-3" id="other-tools">Other Tools</h2>
+	<div class="m-0 p-0" id="other-tools">
+	<h3 class="text-center text-white p-3" id="other-tools">OTHER TOOLS</h3>
 	<div class="m-0">
 		<div class="container col">
-			<div class="row justify-content-center align-items-center flex-wrap text-center">
-				<a href="https://www.sublimetext.com/" target="_blank">
-						<img src="./images/logo-sublime-text-3.png">
+			<div class="row justify-content-around align-items-center flex-wrap text-center">
+				<a href="https://www.sublimetext.com/" target="_blank" class="col-3 col-md-1">
+						<img src="./images/logo-sublime-text-3.png" class="img-fluid">
 				</a>
 
-				<a href="https://about.gitlab.com/" target="_blank">
+				<a href="https://about.gitlab.com/" target="_blank" class="col-3 col-md-1">
 						<img src="./images/logo-gitlab-ci-cd.png" class="img-fluid">
 				</a>
 
-				<a href="https://nodejs.org/en/" target="_blank">
+				<a href="https://nodejs.org/en/" target="_blank" class="col-3 col-md-1">
 						<img src="./images/logo-nodejs.png" class="img-fluid">
 				</a>
 
-				<a href="https://www.mongodb.com/" target="_blank">	
+				<a href="https://www.mongodb.com/" target="_blank" class="col-3 col-md-1">	
 						<img src="./images/logo-mongodb.png" class="img-fluid">
 				</a>
 
-				<a href="https://reactjs.org/" target="_blank">
+				<a href="https://reactjs.org/" target="_blank" class="col-3 col-md-1">
 						<img src="./images/logo-react.png" class="img-fluid">
 				</a>
 
-				<a href="https://www.heroku.com/" target="_blank">
+				<a href="https://www.heroku.com/" target="_blank" class="col-3 col-md-1">
 						<img src="./images/logo-heroku.png" class="img-fluid">
 				</a>
 
-				<a href="https://www.postman.com/" target="_blank">
+				<a href="https://www.postman.com/" target="_blank" class="col-3 col-md-1">
 						<img src="./images/logo-postman.png" class="img-fluid">
 				</a>
 
-				<a href="https://expressjs.com/" target="_blank">
+				<a href="https://expressjs.com/" target="_blank" class="col-3 col-md-1">
 						<img src="./images/logo-expressjs.png" class="img-fluid">
+				</a>
+
+				<a href="https://https://restfulapi.net/" target="_blank" class="col-3 col-md-1">
+						<img src="./images/logo-rest.png" class="img-fluid">
 				</a>
 			</div>
 		</div>	
@@ -209,12 +208,26 @@
 
 
 <!-- Contact -->
-	<div class="container border border-dark p-5" id="contact">
-<!-- 		<h2 class="text-center p-3">Reach Out!</h2> -->
+<section  id="contact">
+	<div class="container border border-dark p-5 contact">
+				<h2 class="text-center">You can reach out through:</h2>
+					<div class="d-flex justify-content-center">
+						<a href="https://www.facebook.com/UnknownHunterPH/" target="_blank" class="img-fluid mx-3 contact-logo">
+							<i class="fab fa-facebook"></i>
+						</a>
+
+						<a href="https://m.me/UnknownHunterPH" target="_blank" class="img-fluid mx-3 contact-logo">
+							<i class="fab fa-facebook-messenger"></i>
+						</a>
+
+						<a href="https://www.instagram.com/marcokalalo/" target="_blank" class="img-fluid mx-3 contact-logo">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</div>
 		<div class="row justify-content-center mx-auto">
 			<div class="container col-md-6">
-				<h3 class="text-center my-5">Find Me Here!</h3>
-				<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Santol,%20mataasnakahoy,%20batangas,%20philippines&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+				<h3 class="text-center mt-5">Find him here!</h3>
+				<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=104%20Rizal%20St,%20Mataas%20Na%20Kahoy,%20Batangas&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 			</div>
 
 			<div class="container col-md-6 mt-4 pt-2">
@@ -243,10 +256,12 @@
 			</div>
 		</div>
 	</div>
+</section>
 <!-- End of Contacts -->
 
 <footer class="border-top border-dark" id="footer">
-	<h5 class="text-center text-white p-2 m-0">&copy;2021. All Rights Reserved</h4>		
+	<h5 class="text-center text-white m-0 p-0">You think. We build.</h5>
+	<p class="text-center text-white p-2 m-0">&copy;2021. All Rights Reserved</p>		
 </footer>
 
 
